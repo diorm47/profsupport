@@ -729,8 +729,13 @@ footer .contact_phone p {
   margin-bottom: 22px;
 }
 
-ul {
+ul,
+ol {
   padding-left: 20px;
+}
+.main__text-24 ol li::marker {
+  font-size: 24px;
+  font-weight: 500;
 }
 
 .main__text li {
@@ -794,4 +799,39 @@ ul {
   line-height: 27px;
   margin: 0 auto;
   border-radius: 50px;
+}
+
+.service__page .news__page-img {
+  margin-top: 20px;
+}
+.service__page .news__page-img img {
+  margin: 0;
+}
+.service__page h3 {
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: 0px;
+  margin-bottom: 32px;
+  margin-top: 32px;
+}
+
+.services__sec {
+  background: #fff;
+  padding: 85px 80px;
+  margin-top: 24px;
+}
+.services__sec-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px 21px;
+}
+
+.services__sec .main__btn {
+  border-radius: 60px;
+  height: 50px;
+  padding: 17px 57px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 33px;
 }
