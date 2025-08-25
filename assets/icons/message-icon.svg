@@ -1,0 +1,17 @@
+<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24.000000" height="24.000000" fill="none" customFrame="#000000">
+	<rect id="Messages, Chat/Messages, Chat" width="24.000000" height="24.000000" x="0.000000" y="0.000000" fill="rgb(255,255,255)" fill-opacity="0" />
+	<g id="Group">
+		<g id="Group">
+			<path id="a" d="M0 0L24 0L24 24L0 24L0 0Z" fill-rule="evenodd" />
+			<path id="Path" d="M9.85001 14.5L14.15 14.5" fill-rule="evenodd" stroke="rgb(255,255,255)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
+			<path id="Path" d="M8 11.25L16 11.25" fill-rule="evenodd" stroke="rgb(255,255,255)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
+			<path id="Path" d="M9.85001 8L14.15 8" fill-rule="evenodd" stroke="rgb(255,255,255)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
+			<path id="Path" d="M21 11.291C21 15.83 16.952 19.473 12 19.473C11.359 19.473 10.735 19.41 10.131 19.294" fill-rule="evenodd" stroke="rgb(255,255,255)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
+			<path id="Path" d="M6.599 17.826C4.42 16.336 3 13.974 3 11.291" fill-rule="evenodd" stroke="rgb(255,255,255)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
+			<path id="Path" d="M6.59901 17.8259C6.59801 18.6799 6.60001 19.8319 6.60001 21.0409" fill-rule="evenodd" stroke="rgb(255,255,255)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
+			<path id="Path" d="M3 11.2909C3 6.75186 7.048 3.10986 12 3.10986C16.952 3.10986 21 6.75286 21 11.2919" fill-rule="evenodd" stroke="rgb(255,255,255)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
+			<path id="Path" d="M10.13 19.29L6.60001 21.04" fill-rule="evenodd" stroke="rgb(255,255,255)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
+			<path id="a" d="M0 0L24 0L24 24L0 24L0 0Z" fill-rule="evenodd" />
+		</g>
+	</g>
+</svg>
