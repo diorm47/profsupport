@@ -17,17 +17,50 @@
               <img src="./assets/logo.svg" alt="" />
               <p>Профессиональный ремонт суппортов</p>
             </a>
-            <button class="services__btn">
-              <img src="./assets/icons/menu-btn.svg" alt="" /> Услуги
-            </button>
+                 <div class="service__btn-wrapper">
+                <button class="services__btn" onclick="toggleServMenu()">
+                  <img src="./assets/icons/menu-btn.svg" alt="" /> Услуги
+                </button>
+                <div class="service__modal main__text">
+                  <a href="./service-1.html" class="service__modal-menu">
+                    <img src="./assets/icons/menu-btn.svg" alt="" />
+                    <p>Проточка дисков</p>
+                  </a>
+                  <a href="./service-2.html" class="service__modal-menu">
+                    <img src="./assets/icons/menu-btn.svg" alt="" />
+                    <p>
+                      Замена тормозной <br />
+                      жидкости
+                    </p>
+                  </a>
+                  <a href="./service-3.html" class="service__modal-menu">
+                    <img src="./assets/icons/menu-btn.svg" alt="" />
+                    <p>Покраска суппортов</p>
+                  </a>
+                  <a href="./service-4.html" class="service__modal-menu">
+                    <img src="./assets/icons/menu-btn.svg" alt="" />
+                    <p>
+                      Замена тормозных <br />
+                      дисков
+                    </p>
+                  </a>
+                  <a href="./service-5.html" class="service__modal-menu">
+                    <img src="./assets/icons/menu-btn.svg" alt="" />
+                    <p>
+                      Замена тормозных <br />
+                      колодок
+                    </p>
+                  </a>
+                </div>
+              </div>
           </div>
 
           <div class="nav__menu main__text">
-            <a href="#"><p>Работы</p></a>
-            <a href="#"><p>О компании</p></a>
-            <a href="#"><p>Стоимость</p></a>
-            <a href="#"><p>Контакты</p></a>
-            <a href="#"><p>Новости</p></a>
+            <a href="./projects.html"><p>Работы</p></a>
+            <a href="index.html#about-us"><p>О компании</p></a>
+            <a href="./services.html"><p>Стоимость</p></a>
+            <a href="index.html#contacts"><p>Контакты</p></a>
+            <a href="./news.html"><p>Новости</p></a>
           </div>
           <a class="contact__number main__text" href="tel:+375 (25) 933-37-09"
             ><p>+375 (25) 933-37-09</p></a
@@ -235,10 +268,10 @@
             <div class="footer__menu-item main__text dark">
               <h5>Главная</h5>
 
-              <a href="#"><p>Работы</p></a>
-              <a href="#"><p>О компании</p></a>
-              <a href="#"><p>Стоимость</p></a>
-              <a href="#"><p>Контакты</p></a>
+              <a href="./projects.html"><p>Работы</p></a>
+              <a href="index.html#about-us"><p>О компании</p></a>
+              <a href="./services.html"><p>Стоимость</p></a>
+              <a href="index.html#contacts"><p>Контакты</p></a>
             </div>
             <div class="footer__menu-item main__text dark">
               <h5>Время работы:</h5>
@@ -289,5 +322,8 @@
         </div>
       </footer>
     </div>
+
+    <!-- scripts -->
+    <script src="./scripts/main.js"></script>
   </body>
 </html>

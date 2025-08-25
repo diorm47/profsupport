@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 button {
   cursor: pointer;
   transition: all 0.4s ease;
@@ -834,4 +838,95 @@ ol {
   font-size: 24px;
   font-weight: 500;
   line-height: 33px;
+}
+
+.swiper {
+  width: 100%;
+  padding: 40px 0;
+}
+.works__cards-swiper {
+  margin-top: 52px;
+}
+.works__cards-swiper .swiper-slide {
+  max-width: 265px;
+}
+
+.selected__works,
+.reviews__block {
+  padding-right: 0;
+}
+.selected__works .block__title,
+.reviews__block .block__title {
+  padding-right: 80px;
+}
+.selected__works .socials {
+  width: calc(100% - 80px);
+}
+.reviews__carousel {
+  margin-top: 50px;
+}
+
+/* hovers */
+.nav__menu p:hover,
+.contact__number p:hover,
+.main__text-24 p:hover span,
+.footer__menu a:hover p,
+.contacts__list a:hover p {
+  text-decoration: underline;
+}
+
+.social__item {
+  transition: all 0.4s ease;
+}
+
+button:hover,
+.social__item:hover {
+  opacity: 0.7;
+}
+
+.service__btn-wrapper {
+  position: relative;
+}
+.service__modal {
+  position: absolute;
+  width: 385px;
+  height: 553px;
+  border-radius: 32px;
+  background: rgba(0, 0, 255, 1);
+  left: -34px;
+  top: -17px;
+  padding: 110px 34px 0 50px;
+}
+
+.services__btn {
+  position: relative;
+  z-index: 11;
+}
+
+.service__modal-menu {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 18px 0;
+  transition: all 0.4s ease;
+  border-bottom: 1px solid #fff;
+}
+.service__modal-menu:hover {
+  transition: all 0.4s ease;
+  opacity: 0.8;
+}
+.service__modal .service__modal-menu:last-child {
+  border-bottom: none;
+}
+
+.service__modal {
+  transition: all 0.4s ease;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.service__modal-active {
+  opacity: 1;
+  visibility: visible;
+  transition: all 0.4s ease;
 }
