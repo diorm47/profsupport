@@ -1028,12 +1028,12 @@ button:hover,
 
   nav,
   .header__content {
-    padding-left: 10px !important;
-    padding-right: 10px !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
   }
 
   section {
-    padding: 20px 10px !important;
+    padding: 20px 15px !important;
   }
 
   .selected__works {
@@ -1055,7 +1055,7 @@ button:hover,
   }
 
   .logo img {
-    width: 100px;
+    width: 150px;
   }
 
   .logo p {
@@ -1220,7 +1220,7 @@ button:hover,
   }
 
   .main__text p {
-    font-size: 10px;
+    font-size: 13px;
     line-height: 120%;
   }
 
@@ -1364,9 +1364,12 @@ button:hover,
     padding-bottom: 20px;
   }
   footer .footer__logo  img {
-    width: 150px;
+    width: 200px;
   }
   .page__wrapper {
     overflow: hidden;
+  }
+  .services__card-img {
+    transform: scale(0.9);
   }
 }
