@@ -32,3 +32,9 @@ function toggleServMenu() {
     .querySelector(".service__modal")
     .classList.toggle("service__modal-active");
 }
+
+function toggleNavMenu() {
+  document
+    .querySelector(".mob__menu")
+    .classList.toggle("mob__menu-active");
+}
