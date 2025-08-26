@@ -754,6 +754,7 @@ footer .contact_phone p {
 
 .project__item-gallery img {
   border-radius: 24px;
+  width: 100%;
 }
 
 .projects__list-description .main__text-24 {
@@ -1018,7 +1019,9 @@ button:hover,
     grid-template-columns: repeat(2, 1fr)
   }
 
-
+.project__item-gallery {
+  grid-template-columns: repeat(2, 1fr);
+}
 }
 
 @media only screen and (max-width: 500px) {
@@ -1371,5 +1374,50 @@ button:hover,
   }
   .services__card-img {
     transform: scale(0.9);
+  }
+  .page__content-title h2 {
+    font-size: 28px;
+    line-height: 120%;
+    margin: 20px 0;
+  }
+  .news__page-img img {
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+  nav {
+    border-radius: 12px;
+    padding: 18px 10px;
+  }
+  .not__found {
+    padding: 20px 15px;
+  }
+  .not__found-content h2 {
+    font-size: 30px;
+    line-height: 120%;
+    margin-top: 60px;
+  }
+  .not__found br {
+    display: none;
+  }
+  .not__found-content h1 {
+    font-size: 150px;
+    margin-top: 30px;
+  }
+  .not__found-content p {
+    margin-bottom: 30px;
+  }
+  .not__found-content .main__btn {
+    border-radius: 15px;
+    padding: 6px;
+    height: 47px;
+    font-size: 17px;
+    line-height: 100%;
+  }
+
+  .projects__list-item {
+    padding: 20px 13px;
+  }
+  .project__item-gallery {
+    gap: 10px;
   }
 }
