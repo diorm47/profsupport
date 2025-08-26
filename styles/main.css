@@ -1517,4 +1517,19 @@ button:hover,
     margin: 15px 0;
     font-size: 25px;
   }
+
+  .services__sec-cards {
+    display: flex;
+    flex-direction: column;
+  }
+  .services__sec .main__btn {
+    position: relative;
+    z-index: 1;
+    border-radius: 12px;
+    font-size: 18px;
+    width: 100%;
+  }
+  .services__sec .services__card-description {
+    width: 100%;
+  }
 }
