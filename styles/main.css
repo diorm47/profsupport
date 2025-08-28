@@ -1027,6 +1027,13 @@ button:hover,
   font-size: 23px;
 }
 
+.n__found-wrapper {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 @media only screen and (max-width: 1400px) {
   .page__wrapper {
     padding: 20px;
